@@ -1,0 +1,705 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: "Microsoft Yahei";
+}
+
+
+
+/* 第一页start */
+.section1 {
+    height: 526px;
+    background-image: url(../images/1.jpg);
+    background-position-y: 0;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.section .one {
+    width: 100%;
+}
+
+.section .one .lpage1 {
+    width: 30px;
+    height: 30px;
+}
+
+.section .one .lpage1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.section .one .lpage1img1 {
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+
+.section .one .lpage1img2 {
+    position: absolute;
+    left: 100px;
+    top: 650px;
+    z-index: 3;
+}
+
+.section .one .lpage1img3 {
+    position: absolute;
+    right: 400px;
+    top: 80px;
+    z-index: 3;
+}
+
+.section .one .lpage1img4 {
+    position: absolute;
+    right: 400px;
+    top: 650px;
+    z-index: 10;
+}
+
+.section .one .lpage1Right {
+    width: 620px;
+    height: 864px;
+    background: rgba(0, 0, 0, 0.4);
+    margin-left: 580px;
+}
+
+.section .one .lpage1Right .logo {
+    width: 620px;
+    height: 380px;
+}
+
+.section .one .lpage1Right .logo img {
+    width: 620px;
+    height: 380px;
+    display: none;
+}
+
+.section .one .lpage1Right .lpage1text1 {
+    width: 500px;
+    height: 60px;
+    color: white;
+    display: block;
+    margin-left: 60px;
+
+}
+
+.section .one .lpage1Right .lpage1text1 h2 {
+    text-align: left;
+    font-size: 30px
+}
+
+.section .one .lpage1Right .lpage1text2 {
+    width: 500px;
+    height: 50px;
+    color: white;
+    display: block;
+    margin-left: 60px;
+
+}
+
+.section .one .lpage1Right .lpage1text2 .adjustAutoText {
+    /* text-align: center; */
+    font-size: 18px;
+
+}
+
+.section .one .lpage1Right .lpage1login {
+    width: 500px;
+    height: 50px;
+    /* background: pink; */
+    display: block;
+    margin-left: 60px;
+    display: none;
+
+}
+
+.section .one .lpage1Right a {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #71dde6;
+    float: left;
+    /* margin-left: 60px; */
+    margin-top: 40px;
+}
+
+.section .one .lpage1Right .lpage1login a .sign {
+    opacity: 1;
+    width: 208px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid #71dde6;
+    box-shadow: 1px 0 6px rgba(6, 0, 1, .36);
+    text-align: center;
+    text-shadow: 1px 0 6px rgba(6, 0, 1, .36);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.section .one .lpage1Right .lpage1login a .sign:hover {
+    background: #71dde6;
+    color: white;
+
+}
+
+.section .one .lpage1Right .lpage1login a .login {
+    opacity: 1;
+    width: 208px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid #71dde6;
+    box-shadow: 1px 0 6px rgba(6, 0, 1, .36);
+    text-align: center;
+    text-shadow: 1px 0 6px rgba(6, 0, 1, .36);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 76px;
+}
+
+.section .one .lpage1Right .lpage1login a .login:hover {
+    background: #71dde6;
+    color: white;
+}
+
+.section .one .lpage1bottom {
+    width: 1536px;
+    height: 120px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+    position: absolute;
+    bottom: 10px;
+}
+
+/* 第一页end */
+/*.............................................................................................................................*/
+/* 第二页start */
+.section2 {
+    width: 100%;
+    height: 464px;
+    background: #00aebb;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.section2 .two {
+    width: 100%;
+}
+
+.section2 .two .lpage2bg {
+    width: 1040px;
+    height: 670px;
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    /* z-index: 10; */
+}
+
+.section2 .two .lpage2bg .lpage2text1 {
+    width: 360px;
+    height: 80px;
+    display: block;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    display: none;
+}
+
+.section2 .two .lpage2bg .lpage2text2 {
+    width: 496px;
+    height: 80px;
+    display: block;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    display: none;
+}
+
+.section2 .two .lpage2bg .lpage2img1 {
+    width: 1040px;
+    height: 550;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 240px;
+    display: none;
+}
+
+.section2 .two .lpage2bg .lpage2img1 img {
+    width: 100%;
+}
+
+.section2 .two .lpage2bg .lpage2img2 {
+    width: 150px;
+    height: 180;
+    display: block;
+    position: absolute;
+    left: 810px;
+    top: -40px;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    transition: all 1.5s ease;
+    /* display: none; */
+}
+
+.section2 .two .lpage2bg .lpage2img2 img {
+    width: 100%;
+}
+
+/* 第二页end */
+
+/*.............................................................................................................................*/
+/* 第三页start */
+.section3 {
+    width: 100%;
+    height: 464px;
+    background: #00aebb;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.three {
+    width: 100%;
+}
+
+.lpage3bg {
+    width: 1040px;
+    height: 670px;
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    z-index: 10;
+}
+
+.lpage3bg .lpage3text1 {
+    width: 360px;
+    height: 80px;
+    display: block;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    right: 180px;
+    top: 40px;
+    display: none;
+}
+
+.lpage3bg .lpage3text2 {
+    width: 500px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    right: 180px;
+    top: 100px;
+    display: none;
+}
+
+.three .lpage3bg .pageImg {
+    position: absolute;
+    display: none;
+
+}
+
+.three .lpage3bg .pageImg img {
+    width: 100%;
+
+}
+
+.lpage3img1 {
+    width: 208px;
+    height: 208px;
+    left: 70px;
+    top: 425px;
+    z-index: 1;
+}
+
+.lpage3img2 {
+    width: 210px;
+    height: 210px;
+    right: -40px;
+    top: 250px;
+}
+
+.lpage3img3 {
+    width: 178px;
+    height: 178px;
+    left: -50px;
+    top: 180px;
+}
+
+.page4Img {
+    position: absolute;
+
+}
+
+.page4Img img {
+    width: 100%;
+
+}
+
+.lpage3img4 {
+    width: 555px;
+    height: 365px;
+    left: 222px;
+    top: 235px;
+    transform: rotateX(90deg);
+    transition: all 1s ease;
+}
+
+/* 第三页end */
+/*.............................................................................................................................*/
+/* 第四页start */
+.section4 {
+    width: 100%;
+    height: 464px;
+    background: #00aebb;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.fore {
+    width: 100%;
+}
+
+.lpage4bg {
+    width: 1040px;
+    height: 670px;
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    z-index: 10;
+}
+
+.fore .lpage4bg .lpage4text1 {
+    font-size: 32px;
+    color: #fff;
+    width: 360px;
+    height: 80px;
+    position: absolute;
+    left: 500px;
+    top: 470px;
+    display: block;
+    display: none;
+}
+
+.fore .lpage4bg .lpage4text2 {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    width: 785px;
+    height: 80px;
+    left: 80px;
+    top: 545px;
+    position: absolute;
+    display: none;
+
+}
+
+.fore .lpage4bg .pageImg {
+    position: absolute;
+    display: none;
+
+}
+
+.fore .lpage4bg .pageImg img {
+    width: 100%;
+
+}
+
+/* 箭头 */
+.fore .lpage4bg .lpage4img1 {
+    width: 144px;
+    height: 204px;
+    left: -72px;
+    top: 360px;
+}
+
+/* 咖啡 */
+.fore .lpage4bg .lpage4img2 {
+    width: 108px;
+    height: 104px;
+    left: 360px;
+    top: 424px;
+}
+
+/* 眼镜 */
+.fore .lpage4bg .lpage4img3 {
+    width: 132px;
+    height: 44px;
+    left: 768px;
+    top: 576px;
+}
+
+/* 书 */
+.fore .lpage4bg .lpage4img4 {
+    width: 133px;
+    height: 168px;
+    left: 68px;
+    top: 148px;
+}
+
+/* 电脑 */
+.page5Img {
+    position: absolute;
+
+}
+
+.page5Img img {
+    width: 100%;
+
+}
+
+.fore .lpage4bg .page5Img {
+    width: 320px;
+    height: 265px;
+    left: 248px;
+    top: 48px;
+    display: none;
+}
+
+/* 屏幕 */
+.page6Img {
+    position: absolute;
+
+}
+
+.page6Img img {
+    width: 100%;
+
+}
+
+.fore .lpage4bg .page6Img {
+    width: 252px;
+    height: 95px;
+    left: 256px;
+    top: 58px;
+    transform: rotateX(90deg);
+    transition: all 1s ease;
+}
+
+/* 圆图 */
+.page7Img {
+    position: absolute;
+
+}
+
+.page7Img img {
+    width: 100%;
+
+}
+
+.fore .lpage4bg .lpage4img7 {
+    width: 420px;
+    height: 420px;
+    right: 0px;
+    top: 0px;
+    transform: rotateX(90deg);
+    transition: all 1s ease;
+}
+
+/* 第四页end */
+
+/*.............................................................................................................................*/
+/* 第五页start */
+.section5 {
+    width: 100%;
+    height: 464px;
+    background: #e4e4e4;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.five {
+    width: 100%;
+}
+
+.five .lpage5bottom {
+    width: 1536px;
+    height: 160px;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    top: 587.2px;
+    background: rgba(0, 0, 0, .1);
+}
+.section5 .five .pageImg img{
+    width: 100%;
+}
+.section5 .five .pageImg{
+    position: absolute;
+
+}
+.section5 .five .adjustAutoText{
+    display: none;
+}
+.lpage5text1 {
+    font-size: 48px;
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    left: 400px;
+    top: 160px;
+    color: #00aebb;
+}
+
+.lpage5text2 {
+    font-size: 16px;
+    width: 425px;
+    height: 250px;
+    position: absolute;
+    left: 400px;
+    top: 296px;
+    color: #404040;
+}
+/* <!-- 电脑 --> */
+
+.section5 .five .lpage5img1 {
+    opacity: 0.4;
+    width: 760px;
+    height: 600px;
+    left: 590px;
+    top: 256px;
+    display: none;
+}
+/* 电脑壁纸 */
+.section5 .five .lpage5img2 {
+    width: 435px;
+    height: 335px;
+    left: 895px;
+    top: 280px;
+    display: none;
+}
+/* 手机 */
+.section5 .five .lpage5img3 {
+    width: 150px;
+    height: 150px;
+    left: 160px;
+    top: 224px;
+    display: none;
+}
+/* 打印机 */
+.section5 .five .lpage5img4 {
+    width: 150px;
+    height: 150px;
+    left: 160px;
+    top: 224px;
+    display: none;
+}
+/* 箭头 */
+.section5 .five .lpage5img5 {
+    width: 180px;
+    height: 185px;
+    left: 160px;
+    top: 480px;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    transition: all 1.5s ease;
+    display: none;
+}
+/* 第五页end */
+/*.............................................................................................................................*/
+/* 第六页start */
+.section6{
+    height: 526px;
+    background-image: url(../images/bg1.jpg);
+    background-position-y: 0;
+    background-size: cover;
+    position: relative;
+    overflow: visible;
+}
+.section6 .six{
+    width: 100%;
+}
+.section6 .six .lpage6top{
+    width: 1536px;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.section6 .six .page6img{
+    position: absolute;
+    display: none;
+}
+.section6 .six .page6img img{
+    width: 100%;
+}
+.section6 .six .lpage6img1{
+    width: 80px;
+    height: 80px;
+    left: 80px;
+    top: 40px;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    transition: all 1.5s ease;
+}
+.section6 .six .lpage6img2{
+    width: 80px;
+    height: 80px;
+    left: 80px;
+    bottom:50px;
+    transform-origin: bottom right;
+    transform: rotate(-90deg);
+    transition: all 1.5s ease;
+}
+.section6 .six .lpage6img3{
+    width: 80px;
+    height: 80px;
+    top: 40px;
+    right:100px;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+    transition: all 1.5s ease;
+}
+
+.section6 .six .lpage6img4{
+    right: 100px;
+    bottom: 50px;
+    transform-origin: bottom left;
+    transform: rotate(90deg);
+    transition: all 1.5s ease;
+}
+.section6 .six .lpage6img5{
+    width: 292px;
+    height: 292px;
+    left: 604px;
+    top: 204px;
+}
+.section6 .six .lpage6img6{
+    width: 219px;
+    height: 59px;
+    left: 644px;
+    top: 324px;
+    cursor: pointer;
+
+}
+.section6 .six .lpage6img7{
+    opacity: 1;
+    width: 248px;
+    height: 32px;
+    left: 624px;
+    top: 536px;
+}
+.section6 .six .lpage6bottom{
+    width: 1536px;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
