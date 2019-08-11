@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    background: #f8f8f8
+}
+
+
+
+/* ----------------------------------------------------con */
+#p_box {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#p_box ul li {
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.p_img {
+    width: 200px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+}
+
+.p_img img {
+    width: 200px;
+    height: 300px;
+}
+
+.p_con {
+    display: block;
+    float: left;
+    width: 930px;
+    height: 280px;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.p_con:hover {
+    background: rgb(220, 220, 220);
+}
+
+.p_title {
+    height: 10px;
+    /* color: #f50; */
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+.p_title a {
+    color: #f50;
+}
+
+.p_catalog {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.p_tags {
+    line-height: 30px;
+}
+
+.p_sub2 {
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.p_reading {
+    float: left;
+    display: block;
+    margin-top: 10px;
+    color: red;
+}
+
+.p_bytime {
+    margin-top: 10px;
+    float: right;
+    width: 220px;
+    height: 40px;
+}
+
+.p_cart {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: rgb(120, 107, 221);
+    margin-top: 40px;
+    float: left;
+    margin-left: -100px;
+    border-radius: 5px;
+}
+
+.p_collect {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: rgb(120, 107, 221);
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.p_collect a {
+    color: white;
+    font-size: 16px;
+}
+
+.p_cart a {
+    color: white;
+    font-size: 16px;
+}
+
+span {
+    font-size: 16px;
+}
+
+/* ----------------------------------------con end */
+
+
